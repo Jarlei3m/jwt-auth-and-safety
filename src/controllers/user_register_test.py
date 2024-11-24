@@ -23,6 +23,3 @@ def test_registry():
 
     assert repository.registry_user_attributes["password"] is not None
     assert repository.registry_user_attributes["password"] != password
-    print()
-    print(response)
-    print(repository.registry_user_attributes)
